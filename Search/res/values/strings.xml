@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="SEARCH_RESULT_FAILURE">Oops no content! Try again!</string>
+	<string name="FETCH_CONTENT_FAILED">Oops! There is a problem fetching your content!</string>
+
+</resources>
