@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Epg</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="LOCK_FROM_GUEST">To lock content, you need to log into your profile.</string>
+    <string name="LIKE">You liked </string>
+    <string name="UNLIKE">You unliked </string>
+    <string name="VIDEO_FINISHED">Do you want to play the video again?</string>
+    <string name="VIDEO_ERROR">Sorry, this video is not available now.</string>
+    <string name="LOCK_MESSAGE">Sorry, this is locked!</string>
+    <string name="LOCK">You locked </string>
+    <string name="LOCK_FAILURE">Failed to lock</string>
+    <string name="UNLOCK_FAILURE">Failed to unlock</string>
+    <string name="UNLOCK">You unlocked </string>
+    <string name="ADDED_TO_PLAYLIST">Added to your Playlist! </string>
+    <string name="REMOVED_FROM_PLAYLIST">Removed from your Playlist! </string>
+    <string name="WRONG_PASSWORD">Oops! Wrong password.</string>
+    <string name="RECOMMENDED_TEXT">What you may like </string>
+    <string name="SEARCH_RESULT_FAILURE">Oops no content! Try again!</string>
+    <string name="FETCH_CONTENT_FAILED">Oops! There is a problem fetching your content!</string>
+    <string name="WIFI_DISCOVERY_FAILED">Failed to find any more displays</string>
+    <string name="WIFI_DEVICE_NOT_FOUND">Unable to play on chosen display</string>
+    <string name="NO_REMINDER">No reminders for you.</string>
+    <string name="RECORD_ERROR">There is a problem recording.</string>
+    <string name="NO_RECORDER">No recorded programs found.</string>
+    <string name="SET_REMINDER"> Reminder set for </string>
+    <string name="CANCEL_REMINDER"> Reminder cancel on </string>
+    <string name="SET_RECORD"> Recording set for </string>
+    <string name="CANCEL_RECORD"> Recording cancel on </string>
+    <string name="REMOVE_FAV"> Remove from Favourite List</string>
+    <string name="ALREADY_RECORD"> Already Recorded</string>
+    <string name="NO_SPACE_RECORD">No space for Recording</string>
+    <string name="UNKNOWN_ERROR">Oops! Something is wrong.</string>
+    <string name="RECORDING_FAILURE">Failed recording. </string>
+    <string name="INSUFFICIENT_RECORDINGSPACE">Insufficient storage. Please upgrade. </string>
+    <string name="NETWORKERROR">Network not available</string>
+	<string name ="TUNERERROR">No signal. Please try after some time.</string> 
+    
+    
+    <string name="drm_error_not_supported">Protected content not supported on API levels below 18</string>
+    <string name="drm_error_unsupported_scheme">This device does not support the required DRM scheme</string>
+    <string name="drm_error_unknown">An unknown DRM error occurred</string>
+    <string name="logging_normal">Normal</string>
+    <string name="logging_verbose">Verbose</string>
+    <string name="retry">Retry</string>
+    <string name="enable_background_audio">Play in background</string>
+    <string name="off">[off]</string>
+    <string name="on">[on]</string>
+	<string name="drm_error_not_Subscriber">Subscriber is blocked</string>   
+
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/playout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="124dip" >
+
+        <LinearLayout
+            android:id="@+id/programlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dip"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/imageloyout"
+                android:layout_width="110dip"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="6dip"
+                    android:layout_marginTop="16dip"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="Program time"
+                    android:textColor="#ffffff"
+                    android:textSize="14dip" />
+
+                <ImageView
+                    android:id="@+id/Prog_icon"
+                    android:layout_width="96dip"
+                    android:layout_height="96dip"
+                    android:layout_margin="6dip"
+                    android:visibility="invisible"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/default_image" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/nameloyout"
+                android:layout_width="437dip"
+                android:layout_height="match_parent"
+                android:layout_margin="8dip" >
+
+                <RelativeLayout
+                    android:id="@+id/llayout"
+                    android:layout_width="70dip"
+                    android:layout_height="match_parent" >
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/Progname"
+                    android:layout_toRightOf="@+id/llayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="Program Info Not Available"
+                    android:textColor="#ffffff"
+                    android:textSize="24dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/desclayout"
+                android:layout_width="437dip"
+                android:layout_height="match_parent" >
+
+                <RelativeLayout
+                    android:id="@+id/innerDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dip" >
+
+                    <TextView
+                        android:id="@+id/desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:text="Program Info Not Available"
+                        android:textColor="#ffffff"
+                        android:textSize="12dip" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/lineview1"
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:background="#C0C0C0" />
+    </RelativeLayout>
+
+</RelativeLayout>

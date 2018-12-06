@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="76dip"
+        android:layout_alignParentBottom="true" >
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="fill_parent"
+            android:layout_height="224dip"
+            android:background="@drawable/bg_featurelist" >
+
+            <RelativeLayout
+                android:id="@+id/leftlayout"
+                android:layout_width="wrap_content"
+                android:layout_height="192dip"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="100dip"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/leftarrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ico_arrowl" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/centrelayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="135dip"
+                android:layout_marginRight="137dip" >
+                
+                <RelativeLayout 
+                   android:id="@+id/rtext"
+	               android:layout_width="match_parent"
+	               android:layout_height="32dip"
+	               android:focusable="false"
+	               android:background="@color/black" >
+	               <TextView 
+	                   android:layout_width="wrap_content"
+	                   android:layout_height="wrap_content"
+	                   android:textColor="#ffffff"
+	                   android:gravity="center"
+	                   android:focusable="false"
+	                   android:layout_marginLeft="8dip"
+			           android:textSize="22dip"
+	                   android:text="@string/RECOMMENDED_TEXT" />
+				</RelativeLayout>
+                <com.port.api.widget.TwoWayView
+                    android:id="@+id/rList"
+                    android:layout_width="fill_parent"
+                    android:layout_height="192dip"
+                    android:layout_below="@+id/rtext"
+                    android:background="@drawable/menu_item_background_selector"
+                    android:clickable="true"
+                    android:listSelector="#00000000"
+                    android:orientation="horizontal"
+                    android:scrollbars="none" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rightlayout"
+                android:layout_width="wrap_content"
+                android:layout_height="192dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="100dip"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/rightarrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ico_arrowr" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!-- Bouquet Layout -->
+
+<!--         <RelativeLayout -->
+<!--             android:id="@+id/mainlayout" -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="76dip" -->
+<!--             android:layout_below="@+id/layout1" > -->
+
+<!--             <RelativeLayout -->
+<!--                 android:id="@+id/centreblayout" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="match_parent" -->
+<!--                 android:background="@drawable/bg_featurelist" -->
+<!--                 android:layout_marginBottom="18dip" -->
+<!--                 android:layout_marginTop="8dip" > -->
+
+<!--                 <RelativeLayout -->
+<!--                     android:id="@+id/leftblayout" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="60dip" -->
+<!--                     android:layout_alignParentLeft="true" -->
+<!--                     android:layout_marginLeft="100dip" -->
+<!--                     android:visibility="invisible" > -->
+
+<!--                     <ImageView -->
+<!--                         android:id="@+id/lefbtarrow" -->
+<!--                         android:layout_width="wrap_content" -->
+<!--                         android:layout_height="40dip" -->
+<!--                         android:layout_centerVertical="true" -->
+<!--                         android:src="@drawable/ico_arrowl" /> -->
+<!--                 </RelativeLayout> -->
+
+<!--                 <RelativeLayout -->
+<!--                     android:id="@+id/layout" -->
+<!--                     android:layout_width="match_parent" -->
+<!--                     android:layout_height="60dip" -->
+<!--                     android:layout_centerInParent="true" -->
+<!--                     android:layout_centerVertical="true" -->
+<!--                     android:layout_marginLeft="135dip" -->
+<!--                     android:layout_marginRight="135dip" > -->
+
+<!--                     <com.port.api.widget.TwoWayView -->
+<!--                         android:id="@+id/bList" -->
+<!--                         android:layout_width="match_parent" -->
+<!--                         android:layout_height="wrap_content" -->
+<!-- 						android:background="@drawable/menu_item_background_selector" -->
+<!--                         android:clickable="true" -->
+<!--                         android:listSelector="#00000000" -->
+<!--                         android:orientation="horizontal" -->
+<!--                         android:scrollbars="none" /> -->
+<!--                 </RelativeLayout> -->
+
+<!--                 <RelativeLayout -->
+<!--                     android:id="@+id/rightblayout" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="60dip" -->
+<!--                     android:layout_alignParentRight="true" -->
+<!--                     android:layout_marginRight="100dip" -->
+<!--                     android:visibility="invisible" > -->
+
+<!--                     <ImageView -->
+<!--                         android:id="@+id/rightbarrow" -->
+<!--                         android:layout_width="wrap_content" -->
+<!--                         android:layout_height="35dip" -->
+<!--                         android:layout_centerVertical="true" -->
+<!--                         android:src="@drawable/ico_arrowr" /> -->
+<!--                 </RelativeLayout> -->
+<!--             </RelativeLayout> -->
+<!--         </RelativeLayout> -->
+    </RelativeLayout>
+
+</RelativeLayout>

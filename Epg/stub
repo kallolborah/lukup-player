@@ -1,0 +1,22 @@
+
+Mpd test urls
+
+	lukupExoPlayer("http://ec2-54-237-119-34.compute-1.amazonaws.com:8080/movie/dark_knight/DARK_KNIGHT.mpd");
+	lukupExoPlayer("http://14.142.37.109/dash/test/manifest.mpd");
+	lukupExoPlayer("http://ec2-54-237-119-34.compute-1.amazonaws.com:8080/movie/dark_knight/DARK_KNIGHT.mpd");
+
+live Tv urls
+playVideoData("http://14.142.37.109/hls/ExpressMusic/index.m3u8");
+
+
+//playVideoData("http://14.142.37.109/dash/test/manifest.mpd");
+
+
+
+For Live TV
+//String stringURL ="http://14.142.37.107/SMS/testing.json";
+//String stringURL ="http://172.16.0.5/SMS/test.json"; //randeep testing
+
+for (NetworkInterface netint : Collections.list(en))
+if(Constant.DEBUG)Log.i(TAG+" All Network Interface Name : ", netint.getName()+ "");
+				
