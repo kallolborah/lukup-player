@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.port.apps.settings"
+    android:sharedUserId="my.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+
+    <application
+        android:name="com.port.Port"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service
+            android:name="com.port.api.network.bt.BluetoothConnectionService"
+            android:enabled="true" />
+        <service
+            android:name="com.port.api.network.Transmitter"
+            android:enabled="true" />
+        <service
+            android:name="com.port.apps.settings.Profile"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.port.Schedule"
+            android:enabled="true" />
+        <service
+            android:name="com.port.apps.settings.Settings"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.port.api.network.wifidirect.WifiP2PConnectionService"
+            android:enabled="true" />
+        
+         <receiver
+            android:name="com.port.api.network.wifidirect.WiFiDirectBroadcastReceiver"
+            android:exported="false" >
+        </receiver>
+    </application>
+
+</manifest>

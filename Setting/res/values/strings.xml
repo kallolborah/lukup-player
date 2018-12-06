@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Setting</string>
+    <string name="action_settings">Setting</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="SubscriberId_is_Not_Generated">Subscriber ID not generated !</string>
+    <string name="MANUAL_NETWORK_SETUPINFO_FAILURE">Failing to set up your network.</string>
+    <string name="NETWORKERROR">No network available !</string>
+    <string name="UNKNOWN_ERROR">Oops! Something is wrong.</string>
+    <string name="AUTO_NETWORK_SETUP_SUCCESS">Auto Ethernet detection successful.</string>
+    <string name="MANUAL_NETWORK_SETUP_SUCCESS">Manual Ethernet detection successful.</string>
+    <string name="WIFI_NETWORK_SETUP_SUCCESS">Wifi detection successful.</string>
+    <string name="HOTSPOT_ENABLE">Hotspot activited.</string>
+    
+    <string name="ALREADY_PROFILE_NAME_EXIST">This profile already exists.</string>
+    <string name="DELETED_PROFILE">Done! Profile is deleted.</string>
+    <string name="WRONG_PASSWORD">Oops! Wrong password.</string>
+    <string name="DELETE_PRIMARY_SUBSCRIBER">Sorry, cant delete a primary subscriber.</string>
+
+</resources>
