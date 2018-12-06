@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Storage</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="USB_CONNECTION_ERROR">Please connect the USB!</string>
+    <string name="USB_CONNECTION_EMPTY_FILE">No content found!</string>
+    <string name="NO_USB_CONNECTION">No USB Device found</string>
+    
+    <string name="UNKNOWN_ERROR">Oops! Something is wrong.</string>
+</resources>
