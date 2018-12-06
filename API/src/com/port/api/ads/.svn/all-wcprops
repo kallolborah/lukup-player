@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/api/ads
+END
+ConnectClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/api/ads/ConnectClass.java
+END
+AdInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/api/ads/AdInfo.java
+END
+AdsServiceUrlRecords.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/api/ads/AdsServiceUrlRecords.java
+END
+XMLParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/api/ads/XMLParser.java
+END

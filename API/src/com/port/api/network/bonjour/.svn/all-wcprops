@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/api/network/bonjour
+END
+BonjourService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/api/network/bonjour/BonjourService.java
+END
+ConnectedDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/api/network/bonjour/ConnectedDevice.java
+END
+SocketTransmitter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/api/network/bonjour/SocketTransmitter.java
+END
+SocketListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/api/network/bonjour/SocketListener.java
+END

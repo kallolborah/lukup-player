@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port
+END
+MessageQueueElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/MessageQueueElement.java
+END
+Producer.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/Producer.java
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/Main.java
+END
+Port.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/Port.java
+END
+Channel.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/Channel.java
+END
+MessageQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/MessageQueue.java
+END
+Consumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/Consumer.java
+END
+Schedule.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/lukup-player/!svn/ver/1/src/API/src/com/port/Schedule.java
+END

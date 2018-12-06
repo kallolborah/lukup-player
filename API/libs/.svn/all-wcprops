@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/repos/lukup-player/!svn/ver/1/src/API/libs
+END
+commons-codec-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/lukup-player/!svn/ver/1/src/API/libs/commons-codec-1.3.jar
+END
+java-xmlbuilder-0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/lukup-player/!svn/ver/1/src/API/libs/java-xmlbuilder-0.4.jar
+END
+Parse-1.4.3.jar.properties
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/lukup-player/!svn/ver/1/src/API/libs/Parse-1.4.3.jar.properties
+END
+commons-httpclient-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/lukup-player/!svn/ver/1/src/API/libs/commons-httpclient-3.1.jar
+END
+javalib.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/lukup-player/!svn/ver/1/src/API/libs/javalib.jar
+END
+Parse-1.4.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/lukup-player/!svn/ver/1/src/API/libs/Parse-1.4.3.jar
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/lukup-player/!svn/ver/1/src/API/libs/commons-logging-1.1.1.jar
+END
+jmdns.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/lukup-player/!svn/ver/1/src/API/libs/jmdns.jar
+END
+commons-net-3.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/lukup-player/!svn/ver/1/src/API/libs/commons-net-3.0.1.jar
+END
+jets3t-0.8.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/lukup-player/!svn/ver/1/src/API/libs/jets3t-0.8.1.jar
+END
+bcprov-jdk14-138.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/lukup-player/!svn/ver/1/src/API/libs/bcprov-jdk14-138.jar
+END
+activation.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/lukup-player/!svn/ver/1/src/API/libs/activation.jar
+END
+android-support-v4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/lukup-player/!svn/ver/1/src/API/libs/android-support-v4.jar
+END

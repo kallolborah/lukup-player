@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/lukup-player/!svn/ver/1/src/API/src/android/net/ethernet
+END
+EthernetDevInfo.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/lukup-player/!svn/ver/1/src/API/src/android/net/ethernet/EthernetDevInfo.aidl
+END
+EthernetNative.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/lukup-player/!svn/ver/1/src/API/src/android/net/ethernet/EthernetNative.java
+END
+EthernetEnabler.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/lukup-player/!svn/ver/1/src/API/src/android/net/ethernet/EthernetEnabler.java
+END
+EthernetDevInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/lukup-player/!svn/ver/1/src/API/src/android/net/ethernet/EthernetDevInfo.java
+END
+EthernetManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/lukup-player/!svn/ver/1/src/API/src/android/net/ethernet/EthernetManager.java
+END
+IEthernetManager.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/lukup-player/!svn/ver/1/src/API/src/android/net/ethernet/IEthernetManager.aidl
+END

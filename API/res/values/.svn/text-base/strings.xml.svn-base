@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="app_name">PortAPI</string>
+	<string name="NETWORKERROR">No network available !</string>
+</resources>
